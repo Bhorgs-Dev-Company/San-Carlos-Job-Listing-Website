@@ -7,17 +7,23 @@
 <body style="background-color:powderblue">
 <header>
 <h1>Homepage</h1>
-
+<input type="search">search</input>
 </header>
 <nav>
-  <nav>
+
    <a href="/html/">HTML</a> |
    <a href="/css/">CSS</a> |
    <a href="/js/">JavaScript</a> |
    <a href="/jquery/">jQuery</a>
- </nav>
+
+
 </nav>
 <section>
+  <textarea name="message" style="width:100%; height:50px;">
+The cat was playing in the garden.
+</textarea>
+  <p>I will display &#128512;</p>
+
   <picture>
    <source srcset="personal1.jpg" media="(max-width: 600px)">
    <source srcset="personal1.jpg" media="(max-width: 1500px)">
